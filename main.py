@@ -12,7 +12,7 @@ client = Client(apikey, secretkey)
 #info = client.get_account()
 klinesA = client.get_historical_klines("BTCUSDT","2h", "1 day ago UTC")
 
-coinPriceFile = 'docs/data.json'
+coinPriceFile = 'docs/result.json'
 
 if os.path.exists(coinPriceFile):
     os.remove(coinPriceFile)
