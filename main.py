@@ -17,5 +17,5 @@ coinPriceFile = 'docs/result.json'
 if os.path.exists(coinPriceFile):
     os.remove(coinPriceFile)
 
-with open(coinPriceFile, 'a') as acutalPriceFile:
-    json.dump(klinesA, acutalPriceFile)
+with open(coinPriceFile, 'a') as coinPriceFile:
+    json.dump(klinesA, coinPriceFile)
